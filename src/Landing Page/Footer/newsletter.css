@@ -1,0 +1,104 @@
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background-color:  #D85B1D;
+    height: 300px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border: 10px;
+}
+
+.newsletter-container header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-container header h3 {
+    font-weight: 800;
+    font-size: 32px;
+    color: #FFF;
+}
+.newsletter-container header p {
+    color:#F0F0F0;
+    margin-top: .5rem;
+    max-width: 450px;
+    text-align: center;
+    margin-top: .5rem;
+}
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 1.5rem;
+}
+.newsletter-form input {
+    width: 100%;
+    max-width: 638px;
+    height: 55px;
+    background: #F8F8F8;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 1rem;
+}
+.newsletter-form button {
+    height: 40px;
+    width: 150px;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 7.5px;
+    right: 10px;
+    background: #D85B1D;
+    color: #FFF;
+    border-radius: 5px;
+}
+.newsletter-form button .iconify {
+    display: none;
+}
+/* @media (min-width: 1086px) {
+
+} */
+@media (max-width: 786px) {
+    .newsletter-container header {
+        justify-content: left;
+        align-items: flex-start;
+        padding: 0 1rem;
+    }
+    .newsletter-container header h3 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        margin-top: 1rem;
+        text-align: left;
+    }
+    .newsletter-container header p {
+        font-size: 15px;
+        text-align: left;
+        max-width: 300px;
+        margin-top: .3rem;
+    }
+    .newsletter-form {
+        padding: 0 1rem;
+    }
+    .newsletter-form button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 46px !important;
+        right: 1.5rem;
+    }
+    .newsletter-form button p {
+        display: none;
+    }
+    .newsletter-form button .iconify {
+        display: flex;
+        font-size: 28px;
+        margin: auto;
+    }
+}

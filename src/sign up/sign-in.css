@@ -1,0 +1,21 @@
+.sign-up-container aside {
+    position: fixed;
+    right: 0;
+    top: 0;
+    flex-basis: 50%;
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-image: url(../Images/headerImage3.jpg) !important;
+}
+
+.forgot-password-text{    
+    text-align: right;
+}
+.forgot-password-text a {
+    color: #DB831B;
+}

@@ -1,0 +1,31 @@
+.footer-inc {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem 80px;
+    background: #130803;
+    color: #FFF;
+}
+
+@media (max-width: 1086px) {
+    .footer-inc {
+        padding: .5rem 24px;
+    }
+
+}
+
+@media (max-width: 786px) {
+    .footer-inc {
+        row-gap: .5rem;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 1rem;
+        flex-direction: column;
+    }
+    .footer-inc p {
+        font-size: 14px;
+    }
+    .footer-inc small {
+        font-size: 12px;
+    }
+}

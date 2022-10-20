@@ -1,0 +1,30 @@
+.dashboard-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:  1rem 80px;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.3);
+    width: 100%;
+}
+
+
+.logo {
+    display: flex;
+    
+}
+.logo img {
+    width: 140px;
+}
+
+.user-image {
+    display: flex;
+    flex-direction: column;
+}
+.user-image img {
+    object-fit: cover;
+    object-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
