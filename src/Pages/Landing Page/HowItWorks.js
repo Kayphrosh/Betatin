@@ -1,9 +1,9 @@
 import React from 'react';
 import './how-it-works.css';
-import Mockup from '../Images/mockup.svg';
-import Vector from '../Images/Vector.svg';
-import Vector2 from '../Images/Vector2.svg';
-import QR from '../Images/qr-code.png';
+import Mockup from '../../Images/mockup.svg';
+import Vector from '../../Images/Vector.svg';
+import Vector2 from '../../Images/Vector2.svg';
+import QR from '../../Images/qr-code.png';
 
 function HowItWorks() {
   return (

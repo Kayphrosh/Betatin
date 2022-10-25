@@ -2,7 +2,7 @@
 .customers-container {
 
     justify-content: center;
-    background-image: url(../Images/customer-bg-noise.svg);
+    background-image: url(../../Images/customer-bg-noise.svg);
     background-color:   #A36C52;
     background-blend-mode: multiply;
     padding: 5rem 80px;

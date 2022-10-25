@@ -23,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 300px;
+    max-width: 380px;
     position: absolute;
     left: 50%;
     /* top: 50%; */
@@ -43,7 +43,7 @@
     border-radius: 5px;
     background: #D85B1D;
     border: 2px solid #D85B1D;
-    border-radius: 5px;
+    border-radius: 55px;
     font-size: 15px;
     color: #FFFFFF;
 }

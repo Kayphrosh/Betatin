@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo from '../Images/logo.svg';
-import User from '../Images/headerImg1.jpg';
+import Logo from '../../Images/logo.svg';
+import User from '../../Images/headerImg1.jpg';
 import './dashboard-navbar.css'
 const DashboardNavBar = () => {
   return (

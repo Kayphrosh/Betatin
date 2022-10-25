@@ -1,10 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar';
+
+import Navbar from '../../Components/Navbar/Navbar';
 import './heroe-container.css';
-import PeopleIllustration from '../Images/people-illustration.svg';
-import HeaderImage1 from '../Images/headerImg4.jpg';
-import HeaderImage2 from '../Images/headerImg2.jpg';
-import HeaderImage3 from '../Images/headerImage3.jpg';
+import PeopleIllustration from '../../Images/people-illustration.svg';
+import HeaderImage1 from '../../Images/headerImg4.jpg';
+import HeaderImage2 from '../../Images/headerImg2.jpg';
+import HeaderImage3 from '../../Images/headerImage3.jpg';
 
 function HeroeContainer() {
   return (

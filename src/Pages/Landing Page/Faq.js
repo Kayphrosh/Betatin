@@ -63,30 +63,7 @@ export const Faq = () => {
             </span>
           </header>
         </div>
-
-        <div class="faq">
-          <header>
-            <h6>Consectetur adipiscing elit ut? </h6>
-            <span>
-              <iconify-icon
-                class="open-icon"
-                icon="ant-design:plus-outlined"
-              ></iconify-icon>
-            </span>
-          </header>
-        </div>
-
-        <div class="faq">
-          <header>
-            <h6>Consectetur adipiscing elit ut? </h6>
-            <span>
-              <iconify-icon
-                class="open-icon"
-                icon="ant-design:plus-outlined"
-              ></iconify-icon>
-            </span>
-          </header>
-        </div>
+    
       </main>
 
     </section>

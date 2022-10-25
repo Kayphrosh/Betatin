@@ -1,6 +1,6 @@
 import React from 'react';
-import CustomersImg from '../Images/customersImg.jpg';
-import AsideImg from '../Images/customer-aside.svg';
+import CustomersImg from '../../Images/customersImg.jpg';
+import AsideImg from '../../Images/customer-aside.svg';
 function Customers() {
   return (
     <section className="customers-container">

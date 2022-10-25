@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 5rem 80px;
-    background-image: url(../Images/customer-bg-noise.svg);
+    background-image: url(../../Images/customer-bg-noise.svg);
     background-color:   #A36C52;
     background-blend-mode: multiply;
     width: 100%;

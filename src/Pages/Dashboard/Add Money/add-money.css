@@ -1,0 +1,130 @@
+.add-money-header {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-top: 4rem;
+}
+
+.via-transfer,
+.via-card {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 0rem 4rem;
+    width: 100%;
+    max-width: 1400px;
+    margin-top: 2rem;
+    min-height: 350px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 40px;
+    position: relative;
+}
+
+
+.transfer-info,
+.card-info {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.transfer-info h4,
+.card-info h4  {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.transfer-info p,
+.card-info p {
+    max-width: 350px;
+    margin-top: 1rem;
+}
+.info-cta-btn {
+    display: flex;
+    margin-top: 2rem;
+    column-gap: 1rem;
+}
+.info-cta-btn button {
+     width: 160px;
+    height: 50px;
+    color: #FFF;
+    font-weight: 500;
+    background: #DB831B;
+    border-radius: 50px;
+}
+.info-cta-btn button:nth-child(1) {
+    background: none;
+    border: 1px solid #DB831B;
+}
+
+.transfer-border {
+    position: absolute;
+    border: 1px solid #666666;
+    height: 100%;
+}
+
+.transfer-details {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5rem;
+    max-width: 400px;
+
+}
+.transfer-details span,
+.card-form span {
+    display: flex;
+    flex-direction: column;
+    row-gap: .8rem;
+}
+.transfer-details span label,
+.card-form span label {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.transfer-details span p {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0 2rem;
+    height: 50px;
+    border: 1px solid rgba(196, 196, 196, 0.3);
+    border-radius: 50px;
+}
+
+.expiry-date-cvv {
+    display: flex;
+    column-gap: 1rem;
+}
+
+
+
+.card-info {
+    flex-basis: 50%;
+}
+.card-form {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5rem;
+    max-width: 400px;
+}
+.card-form input {
+    border: none;
+    outline: none;
+    padding: 0 2rem;
+    height: 50px;
+    border: 1px solid rgba(196, 196, 196, 0.3);
+    border-radius: 50px;
+    background: none;
+    color: #FFF;
+    font-size: 18px;
+}

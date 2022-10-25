@@ -1,8 +1,8 @@
 import React from 'react'
 import './footer-inc.css'
-import MasterCard from './images/logos_mastercard.png'
-import VisaCard from './images/logos_visa.png'
-import VerveCard from './images/verve 1.png'
+// import MasterCard from '../../images/logos_mastercard.png'
+// import VisaCard from './images/logos_visa.png'
+// import VerveCard from './images/verve 1.png'
 const FooterInc = () => {
   return (
     <div className='footer-inc'>

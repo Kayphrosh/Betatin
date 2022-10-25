@@ -1,6 +1,7 @@
 import React from 'react';
+
 import './dashboard.css';
-import DashboardNavBar from './DashboardNavBar.js';
+import DashboardNavBar from '../../../Components/Dashboard Navbar/DashboardNavBar';
 const Dashboard = () => {
   return (
     <section className="dashboard-container">
