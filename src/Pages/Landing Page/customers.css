@@ -80,8 +80,10 @@
 }
 .customers-cta button:nth-child(1) {
     background: none;
-    border:  1px solid #D85B1D;
-    /* color: #131212; */
+    border:  1px solid #FFF;
+    background-color: #F0F0F0;
+
+    color: #D85B1D;
 }
 .customers-cta button:nth-child(1):hover {
     background-color: #D85B1D;

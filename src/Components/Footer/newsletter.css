@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     background-color:  #D85B1D;
     height: 300px;
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
     margin-top: 4rem;
-    border: 10px;
+    border-radius: 300px;
 }
 
 .newsletter-container header {
@@ -33,17 +33,18 @@
 .newsletter-form {
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     margin-top: 1.5rem;
 }
 .newsletter-form input {
     width: 100%;
-    max-width: 638px;
+    width: 638px;
     height: 55px;
     background: #F8F8F8;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 55px;
     padding-left: 1rem;
 }
 .newsletter-form button {
@@ -56,7 +57,7 @@
     right: 10px;
     background: #D85B1D;
     color: #FFF;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 .newsletter-form button .iconify {
     display: none;
