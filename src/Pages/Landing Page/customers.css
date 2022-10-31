@@ -2,8 +2,8 @@
 .customers-container {
 
     justify-content: center;
-    background-image: url(../../Images/customer-bg-noise.svg);
-    background-color:   #A36C52;
+    /* background-image: url(../../Images/customer-bg-noise.svg); */
+    /* background-color:   #A36C52; */
     background-blend-mode: multiply;
     padding: 5rem 80px;
     min-height: 550px;
@@ -12,25 +12,35 @@
 }
 .customers {
     display: flex;
-    column-gap: 2rem;
+    column-gap: 4rem;
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
 }
 .customers img {
-    flex-basis: 45%;
-    border-radius: 5px;
+    flex-basis: 50%;
+    /* border-radius: 5px; */
 }
 
 .customers article {
-    flex-basis: 55%;
-    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    /* background-color: #D63434; */
+    background-image: url(../../Images/Frame\ 507.svg);
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* min-height: 550px; */
+    flex-basis: 50%;
+    /* margin: auto 0; */
 }
 
 .customers article p {
     font-weight: 500;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #FFF;
 }
 .customers article h3 {
     font-style: normal;
@@ -39,14 +49,14 @@
     line-height: 58px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #F0F0F0;
     max-width: 640px;
-    margin-top: .5rem;
+    margin-top: 1.5rem;
 }
 
 .customers-cta {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 3rem;
     justify-content: center;
     align-items: center;
     column-gap: 1rem;
@@ -62,15 +72,27 @@
     outline: none;
     flex-basis: 50%;
     height: 55px;
-    background: #DB831B;
+    background: #D85B1D;
     color: #FFF;
-    border-radius: 5px;
+    border-radius: 55px;
     font-weight: 500;
     z-index: 11;
 }
 .customers-cta button:nth-child(1) {
     background: none;
-    border:  1px solid #DB831B;
+    border:  1px solid #D85B1D;
+    /* color: #131212; */
+}
+.customers-cta button:nth-child(1):hover {
+    background-color: #D85B1D;
+    color: #FFF;
+    transition:  0.5s linear;
+}
+.customers-cta button:hover {
+    background-color: #FFFFFF;
+    color: #D85B1D;
+    transition: all 0.5s linear;
+
 }
 
 .aside-img {
